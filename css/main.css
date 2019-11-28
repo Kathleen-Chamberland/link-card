@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Georgia;
+  line-height: 1.5;
+  background-color: #f0eee8;
+}
+
+a {
+  text-decoration: none;
+  color: #512200;
+}
+
+a.link-card {
+  display: inline-block;
+}
+
+.link-card {
+  background-color: #dcd4cd;
+  border: 3px solid #9a816d;
+  border-radius: 8px;
+  padding: 1rem;
+  max-width: 28em;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.link-card:hover .btn {
+  background-color: #512200;
+}
+
+.link-card h2 {
+  font-family: Dosis, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding: 0;
+  margin: 0;
+}
+
+.insect-description {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+dl {
+  width: 100%;
+  overflow: hidden;
+  padding: 1rem 0;
+  margin: 0 0 1rem;
+  font-size: .875rem;
+  border: solid #9a816d;
+  border-width: 2px 0;
+}
+
+dt {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+dd {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+}
+
+a .btn {
+  display: block;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  background-color: #785439;
+  width: 8em;
+  margin: auto;
+  padding: .4em .75em .5em;
+  border-radius: 8px;
+}
